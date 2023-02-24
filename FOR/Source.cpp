@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<Windows.h>
 using namespace std;
 //#define FACTORIAL
@@ -15,7 +15,7 @@ void main()
 	int i;
 	int sum=1;
 	int n;
-	cout << "Ââåäèòå ÷èñëî Ôàêòîðèàëà:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð¤Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð»Ð°:"; cin >> n;
 	for (i=1;i<=n;i++)
 	{
 		sum = sum*i;
@@ -26,8 +26,8 @@ void main()
 	int n;
 	int a;
 	int st=1;
-	cout << "Ââåäèòå ÷èñëî,êîòîðîå íóæíî âîçâåñòè â ñòåïåíü"; cin >> a;
-	cout << "Ââåäèòå ÷èñëî ñòåïåíè"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾,ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ðµ Ð½ÑƒÐ¶Ð½Ð¾ Ð²Ð¾Ð·Ð²ÐµÑÑ‚Ð¸ Ð² ÑÑ‚ÐµÐ¿ÐµÐ½ÑŒ"; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸"; cin >> n;
 	for (int i=1;i<=n;i++)
 	{
 		st *= a;
@@ -47,7 +47,7 @@ void main()
 	int i;
 	int s;
 	int d;
-	cout << "Ââåäèòå ïðåäåë ÷èñåë Ôèáîíà÷÷è"; cin >> s;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ñ€ÐµÐ´ÐµÐ» Ñ‡Ð¸ÑÐµÐ» Ð¤Ð¸Ð±Ð¾Ð½Ð°Ñ‡Ñ‡Ð¸"; cin >> s;
 	for (i=0,d=1; i <= s; i++)
 	{
 		cout << i + i - d << endl;
@@ -56,7 +56,7 @@ void main()
 	#ifdef VLOGENIE_ITERACII
 	for (int i = 1; i <= 10; i++)
 	{
-		cout << "Òàáëèöà óìíîæåíèÿ íà " << i << endl;
+		cout << "Ð¢Ð°Ð±Ð»Ð¸Ñ†Ð° ÑƒÐ¼Ð½Ð¾Ð¶ÐµÐ½Ð¸Ñ Ð½Ð° " << i << endl;
 		for (int j = 1; j <= 10; j++)
 		{
 		
