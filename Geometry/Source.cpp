@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 //#define FIRST_TASK
 //#define SECOND_TASK
@@ -15,7 +15,7 @@ void main()
 	setlocale(LC_ALL, "");
 #ifdef FIRST_TASK
 	int n;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹:"; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -27,7 +27,7 @@ void main()
 #endif
 #ifdef SECOND_TASK
 	int n;
-	cout << "Ââåäèòå ðàçìåð òðåóãîëüíèêà:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°:"; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j <= i; j++)
@@ -41,7 +41,7 @@ void main()
 
 #ifdef THIRD_TASK
 	int n;
-	cout << "Ââåäèòå ðàçìåð òðåóãîëüíèêà:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°:"; cin >> n;
 	for (int i = n; i >= 0; i--)
 	{
 		for (int j = i; j > 0; j--)
@@ -55,7 +55,7 @@ void main()
 #ifdef FOURTH_TASK
 	int n;
 	int g = 4;
-	cout << "Ââåäèòå ðàçìåð òðåóãîëüíèêà:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°:"; cin >> n;
 	for (int i = n; i >= 0; i--, g += 2)
 	{
 		for (int j = i; j > 0; j--)
@@ -69,7 +69,7 @@ void main()
 #endif
 #ifdef FIFTH_TASK
 	int n;
-	cout << "Ââåäèòå ðàçìåð òðåóãîëüíèêà:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°:"; cin >> n;
 	int g = n;
 	for (int i = 0; i < n; i++, g--)
 	{
@@ -85,7 +85,7 @@ void main()
 #ifdef SIXTH_TASK
 	int n;
 	int d = 1;
-	cout << "Ââåäèòå ðàçìåð ðîìáà:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ€Ð¾Ð¼Ð±Ð°:"; cin >> n;
 	int c = n;
 	int r = 1;
 	for (int i = 0; i < 1; i++, c--)
@@ -110,7 +110,7 @@ void main()
 #ifdef SEVENTH_TASK
 	int n;
 	int j;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹:"; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -126,7 +126,7 @@ void main()
 	int n;
 	int g = 0;
 
-	cout << "Ââåäèòå êîëè÷åñòâî ðÿäîâ:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ€ÑÐ´Ð¾Ð²:"; cin >> n;
 	for (int i = 0; i <= n; i--,g-=2)
 	{
 		cout.width(g-2);
